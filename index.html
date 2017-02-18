@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Demo</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body ng-controller="MainController as MC">
+<div ng-view></div>
+
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-route.min.js"></script>
+<script src="assets/js/angular-messages.min.js"></script>
+
+<script src="app.module.js"></script>
+<script src="app.config.js"></script>
+
+<script src="app/shared/controllers/main.controller.js"></script>
+<script src="app/login/login.controller.js"></script>
+<script src="app/admin/admin.controller.js"></script>
+<script src="app/student/student.controller.js"></script>
+</body>
+</html>
